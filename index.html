@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="popup" class="popup">
+        <div class="modal">
+            <span class="close" onclick="closePopup()">×</span>
+            <h1 id="modal_title"></h1>
+            <div class="flex">
+                <img id="modal_img" src="" alt=""/>
+                <p id="modal_p"></p>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <a href="#presentation"><button>Introduction</button></a>
+        <a href="#dangers"><button>Dangers</button></a>
+        <a href="#help"><button>Help</button></a>
+    </header>
+
+    <div id="presentation" class="presentation">
+        <h1>World of digital<br>dangerous</h1>
+        <div class="information">
+            <p>Harmful activities include cyber-bullying and harassment, identity theft, and the possibility of children
+                viewing unsuitable content. Predators also abuse children online by attempting to recruit them for sexual
+                purposes, while the Internet is used for the distribution of child abuse images.</p>
+        </div>
+    </div>
+
+    <div id="dangers" class="dangers">
+        <h1 class="dangers_title">Dangers</h1>
+        <div id="dangers_container" class="dangers_container">
+            // aucun code de card en gros c le js qui les push
+        </div>
+        <button class="show_more" onclick="document.location.href = './dangers.html'">Show more</button>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div id="help" class="help">
+            <h1>Help</h1>
+            <button onclick="document.location.href = './help.html'">Click here if you have a problem</button>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script> -->
+</body>
+</html>

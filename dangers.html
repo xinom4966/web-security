@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/dangers.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+    <body>
+
+        <div id="popup" class="popup">
+            <div class="modal" style="transform-style: preserve-3d" data-tilt data-tilt-perspective="1000">
+                <span class="close" onclick="closePopup()">×</span>
+                <h1 id="modal_title"></h1>
+                <div class="flex" style="transform: translateZ(50px)">
+                    <img id="modal_img" src="" alt=""/>
+                    <p id="modal_p"></p>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <button onclick="document.location.href = './index.html'">Go home</button>
+            <div class="title_dangers">
+                <h1>List of Dangers</h1>
+            </div>
+            <button>Help</button>
+        </header>
+
+
+        <div class="dangers_container" id="dangers_container"></div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div id="help" class="help">
+                <h1>Help</h1>
+                <button onclick="document.location.href = './help.html'">Click here if you have a problem</button>
+            </div>
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+        <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script> -->
+    </body>
+</html>
