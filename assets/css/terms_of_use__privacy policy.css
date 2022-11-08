@@ -1,0 +1,25 @@
+p{
+    font-family: "Arial", serif;
+    color: white;
+    font-size: 20px;
+    
+}
+
+h2{
+    font-size: 20px;
+    font-family: "Arial Black", serif;
+    color: white;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid cyan;
+    padding: 10px;
+}
+ul{
+    font-family: "Arial", serif;
+    color: white;
+    font-size: 20px;
+}
