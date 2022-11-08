@@ -16,14 +16,7 @@ header {
     border-bottom: 5px solid #2c2c2c;
 }
 
-@media (max-width: 600px) {
-    header {
-        position: static;
-        flex-direction: column;
-        height: 150px;
-        padding: 10px;
-    }
-}
+
 
 header button {
     color: white;
@@ -36,11 +29,7 @@ header button {
     border-radius: 30px;
 }
 
-@media (max-width: 600px) {
-    header button {
-        margin: 3px;
-    }
-}
+
 
 header button:hover {
     cursor: pointer;
@@ -73,12 +62,6 @@ header button:hover {
     -11px -11px 23px #373737;
 }
 
-@media (max-width: 893px) {
-    .information {
-        width: auto;
-        height: auto;
-    }
-}
 
 .information p {
     font-family: "Arial", serif;
@@ -162,11 +145,6 @@ header button:hover {
     margin: 0 auto;
 }
 
-@media (max-width: 893px) {
-    .dangers_container {
-        grid-template-columns: 2fr;
-    }
-}
 
 
 .popup:target {
@@ -197,4 +175,34 @@ footer {
     color: white;
     font-size: 16px;
     font-family: "Arial", serif;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    header {
+        position: static;
+        flex-direction: column;
+        height: 150px;
+        padding: 10px;
+    }
+}
+@media (max-width: 600px) {
+    header button {
+        margin: 3px;
+    }
+}
+@media (max-width: 893px) {
+    .information {
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 893px) {
+    .dangers_container {
+        grid-template-columns: 2fr;
+    }
 }
