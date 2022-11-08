@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+.popup:target {
+    visibility: visible;
+}
+
 .popup .modal {
     width: 893px;
     height: 350px;

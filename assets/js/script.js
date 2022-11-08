@@ -98,7 +98,7 @@ function generateDangers(elementId, number, randomize) {
                 <h2>${danger.title}</h2>
                 <img src="${danger.img}" alt=""/>
                 <br>
-                <button class="show" onclick="openPopup('${danger.id}')">Show</button>
+                <a href="#popup"><button class="show">Show</button></a>
             </div>
     `);
 

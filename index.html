@@ -7,17 +7,51 @@
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/scrollbar.css">
     <link rel="stylesheet" href="assets/css/popup.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
 
-    <div id="popup" class="popup">
-        <div class="modal">
-            <span class="close" onclick="closePopup()">×</span>
-            <h1 id="modal_title"></h1>
-            <div class="flex">
-                <img id="modal_img" src="" alt=""/>
-                <p id="modal_p"></p>
+    <div>
+        <div id="popup1" class="popup">
+            <div class="modal">
+                <a href="##"><span class="close">×</span></a>
+                <h1>Addiction to screens</h1>
+                <div class="flex">
+                    <img src="assets/img/addiction.png" alt=""/>
+                    <p>Screens can become very addictive if you use electronic devices for too long, however it can have negative effects on your physical and mental health. Prolonged exposure to electronic devices can lead to aggressive behaviors, the long term effects include: Speech delay, Cognitive impairment, Difficulty with problem-solving and creative thinking, Cyber bullying and exposure to predators, Body weight issues and poor bone health due to lack of physical activity, which later in life can add up to heart disease and other health conditions, Depression and anxiety.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup2" class="popup">
+            <div class="modal">
+                <a href="##"><span class="close">×</span></a>
+                <h1>Cyberbullying</h1>
+                <div class="flex">
+                    <img src="assets/img/cyberbullying.png" alt=""/>
+                    <p>Oxford Languages definition: the use of electronic communication to bully a person, typically by sending messages of an intimidating or threatening nature. Cyberbullying spreads in social medias due to the anonymity they offer. Jokes, threats, any comment having an intimidating or threatening nature is considered cyberbullying. How to fight cyberbullying: on social medias there is often a “block” option where you can prevent any cyberbullies from messaging you, there are also numbers you can text to help you with your case (for example 50808).</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup3" class="popup">
+            <div class="modal">
+                <a href="##"><span class="close">×</span></a>
+                <h1>Inappropriate contents</h1>
+                <div class="flex">
+                    <img src="assets/img/pegi-18.png" alt=""/>
+                    <p>One of the worst dangers of the Internet, for many parents, is the idea that pornography could pop up and surprise their children. But parents may not realize that some kids are going online to seek out web porn, too.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup4" class="popup">
+            <div class="modal">
+                <a href="##"><span class="close">×</span></a>
+                <h1>Hacking</h1>
+                <div class="flex">
+                    <img src="assets/img/hacking.png" alt=""/>
+                    <p>Hacking is a term for designing the theft of digital information such as passwords, softwares, hardwares, etc… definition by oxford language: the gaining of unauthorized access to data in a system or computer. There are several ways to get hacked, the most common is to get infected by a computer virus when opening a shady website or application. How to prevent getting hacked: first you need to beware of shady emails asking you to click a link, second you need to be cautious with what you download on the internet.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -40,7 +74,60 @@
     <div id="dangers" class="dangers">
         <h1 class="dangers_title">Dangers</h1>
         <div id="dangers_container" class="dangers_container">
-            // aucun code de card en gros c le js qui les push
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="danger">
+                <h2>Addiction to screens</h2>
+                <img src="assets/img/addiction.png" alt=""/>
+                <br>
+                <a href="#popup1"><button class="show">Show</button></a>
+            </div>
+
+            <div class="danger">
+                <h2>Cyberbullying</h2>
+                <img src="assets/img/cyberbullying.png" alt=""/>
+                <br>
+                <a href="#popup2"><button class="show">Show</button></a>
+            </div>
+
+            <div class="danger">
+                <h2>Inappropriate contents</h2>
+                <img src="assets/img/pegi-18.png" alt=""/>
+                <br>
+                <a href="#popup3"><button class="show">Show</button></a>
+            </div>
+
+            <div class="danger">
+                <h2>Hacking</h2>
+                <img src="assets/img/hacking.png" alt=""/>
+                <br>
+                <a href="#popup4"><button class="show">Show</button></a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <button class="show_more" onclick="document.location.href = './dangers.html'">Show more</button>
     </div>
@@ -53,9 +140,5 @@
             <button onclick="document.location.href = './help.html'">Click here if you have a problem</button>
         </div>
     </footer>
-
-    <script src="assets/js/script.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script> -->
 </body>
 </html>

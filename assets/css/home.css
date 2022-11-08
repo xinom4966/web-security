@@ -142,7 +142,9 @@ header button:hover {
     margin: 0 auto;
 }
 
-
+.popup:target {
+    visibility: visible;
+}
 
 
 footer {
