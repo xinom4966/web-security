@@ -26,12 +26,24 @@
     margin: 12% auto auto;
 }
 
+@media (max-width: 893px) {
+    .popup .modal {
+        width: auto;
+        height: auto;  
+    }
+}
+
 .flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+@media (max-width: 893px) {
+    .flex {
+        flex-direction: column;
+    }
+}
 
 .close {
     margin-right: 25px;
@@ -67,4 +79,10 @@
     color: white;
     font-size: 16px;
     font-family: "Arial", serif;
+}
+
+@media (max-width: 893px) {
+    .modal p {
+        padding-right: 0%;
+    }
 }
