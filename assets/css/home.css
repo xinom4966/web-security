@@ -18,6 +18,7 @@ header {
 
 @media (max-width: 600px) {
     header {
+        position: static;
         flex-direction: column;
         height: 150px;
         padding: 10px;
