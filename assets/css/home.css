@@ -142,6 +142,7 @@ header button:hover {
     margin: 0 auto;
 }
 
+
 .popup:target {
     visibility: visible;
 }
@@ -157,24 +158,17 @@ footer {
     text-align: center;
 }
 
-.help h1 {
+
+
+.contact h1 {
     color: #5F8FC8;
     font-size: 35px;
     font-family: "Arial Black", serif;
     text-decoration: underline;
 }
 
-.help button {
+.contact p {
     color: white;
-    font-size: 20px;
-    font-family: "Arial Black", serif;
-    background-color: #454545;
-    width: 403px;
-    height: 63px;
-    border: 0;
-    border-radius: 30px;
-}
-.help button:hover {
-    cursor: pointer;
-    border: 5px solid #2c2c2c;
+    font-size: 16px;
+    font-family: "Arial", serif;
 }
